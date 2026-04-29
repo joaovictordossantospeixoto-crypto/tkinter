@@ -1,1 +1,5 @@
-print("Olá Mundo")
+import tkinter as tk 
+app = tk.Tk()
+
+
+app.mainloop

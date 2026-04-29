@@ -4,11 +4,11 @@ def clicakar():
     print("Clicou no botão")
 app.title("Olá Mundo")
 app.geometry("400x300")
-app.configure(bg="#345678")
+app.configure(bg="#FF0000")
 app.resizable(True,False)
 Label = tk.Label(app,
                  border="5",
-                 background="#FFFFFF",
+                 background="#745757",
                  foreground="#000000",
                  text="Bem Vindo ao Tkinter")
 Label.pack(pady=20)
